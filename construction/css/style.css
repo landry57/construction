@@ -1,0 +1,429 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url('../images/bgd.jpg') top left repeat;
+}
+#pan
+{
+    background-image: url('../images/entete_plans.jpg');
+    height: 175px;
+    display:flex;
+}
+#pan1
+{
+    background-image: url('../images/entete_plans.jpg');
+    height: 200px;
+    display:flex;
+}
+#visit
+{
+    display: none;
+
+}
+#visit2
+{
+    display: none;
+}
+#builde
+{
+  font-size: 18px;  
+}
+#builde::first-letter
+{
+    font-family: 'Crete Round';
+    color: red!important;
+    text-shadow: 4px 4px #fff;
+  font-size: 24px;  
+}
+body 
+{
+     font-family: sans-serif; 
+     overflow-x: hidden;
+    
+}
+nav li a{
+    color: antiquewhite!important;
+    font-size: 20px;
+
+}
+nav .dropdown-item
+{
+    color: #000 !important;
+}
+.dropdown-menu{
+    border-radius: 6px;
+    background: #d98880;
+}
+.clearfix
+{
+    margin-bottom: 40px;
+}
+h1
+{
+ text-align: center;
+ color:  #48c9b0;
+ font-family: 'Times New Roman', Times, serif;
+ font-size: 25px;
+
+}
+.divider
+{
+    border-bottom: 5px solid #d98880;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+h4
+{
+  text-align: center;
+}
+/* navbar */
+.navbar-brand
+{
+    font: outline;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 3em;
+}
+.navbar-brand::first-letter{
+    color: brown;
+}
+.navbar-brand sup
+{
+    font-family: 'Crete Round',sans-serif;
+    font-size: 45px;
+    color: brown;
+}
+nav
+{
+ font-family: 'Times New Roman', Times, serif;
+ font-size: 18px;   
+ background:	silver !important;
+
+}
+li a{
+    color:  #3498db !important;
+    font-weight: 300px;
+}
+/*carousel*/
+
+
+/* part info*/
+.bloc-b-c .thumbnail
+{
+    height: 200px;
+    
+}
+.diago
+{
+ transform: skewX(50deg);
+ border-right:2px solid #3498db; 
+ height: 80%;
+}
+
+/*footer*/
+footer
+{
+    
+    overflow: hidden;
+    padding-bottom: 0px;
+    margin-bottom:0px;
+}
+
+.cadre
+{
+ height: 350px;
+ background: #d98880;
+ box-shadow: 0px 0px 10px 2px #ccc5c5;
+ width: 100%;
+ border-radius: 25px;
+}
+
+#im
+{
+    border-radius: 25px;
+}
+.p1
+{
+    display:inline-block;
+    height: 60px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border: 1px solid #b9b7b7;
+    border-right:0px;
+    height: auto;
+    padding: 10px;
+    text-transform: uppercase;
+
+}
+
+.p1:hover
+{
+    display:inline-block;
+    height: 60px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border: 0px;
+    border-left:0px;
+    height: auto;
+    padding: 11px;
+    background: #d98880;
+    transition: 0.3s;
+    color: #fff;
+    text-transform: uppercase;
+}
+.p2
+{
+    display:inline-block;
+    height: 60px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border: 0px;
+    border-left:0px;
+    height: auto;
+    padding: 11px;
+    background: #d98880;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.p2:hover
+{
+    display:inline-block;
+    height: 60px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border: 0px;
+    border-left:0px;
+    height: auto;
+    padding: 11px;
+    background: #4b4949;
+    transition: 0.3s;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.p2 span{
+
+ color: #fff;
+ 
+ font-family: 'Crete Round',sans-serif;
+}
+
+.desc
+{
+    font-size: 20px;
+    color: #e1e1e2;
+    background: #34495e;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    padding: 10px;
+}
+
+
+.cadre a{
+   
+    filter: grayscale(100%);
+    transition: 1s;
+}
+.cadre a:hover{
+    filter: grayscale(0);
+    transform: scale(1.1);
+}
+
+.p2 a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.p1 a{
+    text-decoration: none;
+    color: rgb(122, 118, 118);
+}
+.thumbnail{
+    border: 2px solid salmon;
+    padding: 40px;
+    border-radius: 15px;
+}
+
+.left1{
+    height: 800px;
+    display: none;
+    border-radius: 15px;
+    background: url('../images/p.jpeg');
+}
+.panel
+{
+    width: 100%;
+}
+#volet a.ouvrir {
+	padding: 10px 25px;
+	background: #ccc5c5;
+	color: #fff;
+	text-decoration: none;
+}
+.fr{
+    border-radius: 15px;
+    background: url('../images/p.jpeg');
+}
+#pan
+{ 
+
+    border-bottom: 2px solid red;
+    transform: skewY(-5deg);
+    width: 100%;
+    display: flex; 
+}
+.tr{
+    font-size:24px;
+    color: #000;
+    background: #ccc5c5;
+}
+.cad{
+    height: 320px;
+}
+.gr{
+ height: 475px;
+}
+#volet span
+{
+  text-decoration: none;
+  color: aliceblue;
+  font-size: 20px;
+  display: flex;
+
+ 
+ 
+}
+.cpan
+{
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 20px;
+    background: url('../images/pn.jpeg');
+}
+.imgP
+{
+    height: 250px;
+    padding: 10px !important;
+}
+#imgP
+{
+    height: 200px !important;
+  
+}
+.imgpm{
+   height: 35px !important;
+   width: 35px !important;
+}
+.choix
+{
+    border-radius: 30px;
+}
+
+
+/*partie box*/
+.box h1{
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 500;
+	text-shadow: 2px 2px #2ecc71;
+}
+.box{
+	width: 300px;
+	padding: 40px;
+	position: absolute;
+	top: 350px;
+	left: 50%;
+	border-radius: 20px;
+	transform: translate(-50%,-50%);
+	background: #191919;
+}
+.box input[type="text"],.box input[type="password"]{
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid #3498db;
+	padding: 14px 10px;
+	width: 150px;
+	outline: none;
+	color: #fff;
+	border-radius: 24px;
+	transition: 0.25s;
+}
+.box input[type="text"]:focus,.box input[type="password"]:focus{
+	width: 200px;
+	border-color: #2ecc71;
+}
+.box input[type="submit"]{
+ border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid #2ecc71;
+	padding: 14px 40px;
+	outline: none;
+	color: #fff;
+	border-radius: 24px;
+	transition: 0.25s;
+	cursor: pointer;
+}
+.box input[type="submit"]:hover{
+	 background: #2ecc71;
+}
+.box p a{
+    color: #fff;
+    font-size: 16px;
+}
+.box p a:hover{
+   text-decoration: none;
+}
+.box p a:hover{
+  color: #2ecc71;
+  transition: 0.3s;
+}
+#error{
+	background: #fff;
+	height: auto;
+	width: 100%;
+	flex-wrap: wrap;
+	display: inline-flex;
+	border: none;
+	border-radius: 5px;
+	color: green;
+	font-weight: bold;
+}
+
+.body
+{
+    background: #34495e;
+}
+.cpan
+{
+    font-size: 18px!important;
+}
+#addA .Aform
+{
+  border-top-left-radius: 0px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border: 2px solid red;
+  background:#e1e1e2;
+}
+#addA .modal-header
+{
+  border-top-left-radius: 20px;
+  border: 1px solid red;
+ 
+}
+footer
+{
+    background: #4b4949;
+}
